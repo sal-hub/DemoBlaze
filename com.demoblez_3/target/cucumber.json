@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can purchase successfully",
+        "description": "",
+        "id": "this-is-a-demoblaze-feature-file;verify-user-can-purchase-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7309969100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User lunch demoblaze url",
+            "match": {
+              "location": "StepDep_Demoblez.user_lunch_demoblaze_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5482634000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on phone and adds to the cart and back to the homepage",
+            "match": {
+              "location": "StepDep_Demoblez.user_clicks_on_phone_and_adds_to_the_cart_and_back_to_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5937606000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on laptops category and  adds a laptop to the cart then back to the homepage",
+            "match": {
+              "location": "StepDep_Demoblez.user_clicks_on_laptops_category_and_adds_a_laptop_to_the_cart_then_back_to_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7602213900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the monitor category and adds  a monitor to the cart then clicks on the cart link",
+            "match": {
+              "location": "StepDep_Demoblez.user_clicks_on_the_monitor_category_and_adds_a_monitor_to_the_cart_then_clicks_on_the_cart_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5264783300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on place order button and fills up the necessary info and click on the purchase button",
+            "match": {
+              "location": "StepDep_Demoblez.user_clicks_on_place_order_button_and_fills_up_the_necessary_info_and_click_on_the_purchase_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2581962200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets a thank you message and clicks on the ok button",
+            "match": {
+              "location": "StepDep_Demoblez.user_gets_a_thank_you_message_and_clicks_on_the_ok_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 730965100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User closes the URL",
+            "match": {
+              "location": "StepDep_Demoblez.user_closes_the_URL()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demoblazeCarte"
+          }
+        ]
+      }
+    ],
+    "name": "This is a demoblaze feature file",
+    "description": "",
+    "id": "this-is-a-demoblaze-feature-file",
+    "keyword": "Feature",
+    "uri": "Demoblez.feature"
+  }
+]
